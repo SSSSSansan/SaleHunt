@@ -1,0 +1,25 @@
+2025-04-21 23:12:19,404 - sales_scraper - INFO - Starting scraping of all sources
+2025-04-21 23:12:19,404 - sales_scraper - INFO - Scraping https://adidas.kz/sale-ru for Sport discounts
+2025-04-21 23:12:23,689 - sales_scraper - INFO - Found 48 items in https://adidas.kz/sale-ru
+2025-04-21 23:12:23,689 - sales_scraper - INFO - Total discounts collected: 48
+2025-04-22 21:06:51,423 - sales_scraper - INFO - Начинаем сбор данных со всех источников
+2025-04-22 21:06:51,427 - sales_scraper - INFO - Сбор данных с https://adidas.kz/sale-ru для категории Sport
+2025-04-22 21:06:55,843 - sales_scraper - INFO - Найдено 48 товаров на https://adidas.kz/sale-ru
+2025-04-22 21:06:55,843 - sales_scraper - INFO - Сбор данных с https://magnum.kz/catalog?discountType=all&srsltid=AfmBOorN8jNdmHnQcgJih3JbFTJvfsvvF_nZLWkIfyXQ6GASYd8Lsywq&city=almaty для категории Food
+2025-04-22 21:06:57,681 - sales_scraper - INFO - Найдено 0 товаров на https://magnum.kz/catalog?discountType=all&srsltid=AfmBOorN8jNdmHnQcgJih3JbFTJvfsvvF_nZLWkIfyXQ6GASYd8Lsywq&city=almaty
+2025-04-22 21:06:57,687 - sales_scraper - INFO - Сбор данных с https://lamoda.kz/c/415/clothes-zhenskaya-odezhda/?sort=discount для категории Clothes
+2025-04-22 21:07:00,485 - sales_scraper - INFO - Найдено 0 товаров на https://lamoda.kz/c/415/clothes-zhenskaya-odezhda/?sort=discount
+2025-04-22 21:07:00,487 - sales_scraper - INFO - Всего собрали 48 скидок
+2025-04-22 21:07:00,724 - sales_scraper - ERROR - Ошибка при сохранении данных в базу данных: ОШИБКА:  значение NULL в столбце "title" отношения "discounts" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (12, Sport, null, Панама Adicolor Trefoil, Не указано, null, null, null, 2025-04-22 21:07:00.660961).
+
+2025-04-22 21:12:03,276 - sales_scraper - INFO - Starting scraping of all sources
+2025-04-22 21:12:03,283 - sales_scraper - INFO - Scraping https://adidas.kz/sale-ru for Sport discounts
+2025-04-22 21:12:05,023 - sales_scraper - INFO - Found 48 items in https://adidas.kz/sale-ru
+2025-04-22 21:12:05,027 - sales_scraper - INFO - Total discounts collected: 48
+2025-04-23 16:35:34,699 - sales_scraper - INFO - Starting scraping of all sources
+2025-04-23 16:35:37,019 - sales_scraper - INFO - Found 48 items in https://adidas.kz/sale-ru
+2025-04-23 16:35:40,327 - sales_scraper - INFO - Found 0 items in https://chocolife.me/eda/
+2025-04-23 16:35:43,278 - sales_scraper - INFO - Found 0 items in https://kupi.fit/collection/skidki
+2025-04-23 16:35:43,297 - sales_scraper - INFO - Total discounts collected: 48
+2025-04-23 16:35:44,020 - sales_scraper - INFO - Data saved to database successfully.
